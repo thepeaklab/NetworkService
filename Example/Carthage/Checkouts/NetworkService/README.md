@@ -12,19 +12,11 @@
 
 ### Carthage
 
-To install `NetworkService` with Carthage, setup Carthage for your project as described in the [Quick Start](https://github.com/Carthage/Carthage#quick-start).
-
-Then add this line to your Cartfile:
+To install with Carthage, add NetworService to your Cartfile:
 
 ```
 github "thepeaklab/NetworkService" ~> 0.1.0
 ```
-
-### Example
-
-Find an example here: [Example](Example)
-
-<img src="Example/Screenshot.png" height="400">
 
 ## Usage
 
