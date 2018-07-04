@@ -8,6 +8,16 @@
 
 `NetworkService` is a small wrapper for Apples [NetService](https://developer.apple.com/documentation/foundation/netservice) classes in [Foundation](https://developer.apple.com/documentation/foundation).
 
+## Install
+
+### Carthage
+
+To install with Carthage, add NetworService to your Cartfile:
+
+```
+github "thepeaklab/NetworkService" ~> 0.1.0
+```
+
 ## Usage
 
 ### Publish Service
