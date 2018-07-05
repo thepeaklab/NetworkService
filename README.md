@@ -20,6 +20,31 @@ Then add this line to your Cartfile:
 github "thepeaklab/NetworkService" ~> 0.1.0
 ```
 
+### Swift Package Manager
+
+To install `NetworkService` with [Swift Package Manager](https://swift.org/package-manager) add `NetworkService` to your `Package.swift`
+
+```swift
+// swift-tools-version:4.0
+// The swift-tools-version declares the minimum version of Swift required to build this package.
+
+import PackageDescription
+
+let package = Package(
+    name: "Dependencies",
+    products: [
+        .library(name: "Dependencies", targets: ["Dependencies"]),
+    ],
+    dependencies: [
+        .package(url: "https://github.com/thepeaklab/NetworkService", from: "0.1.0")
+    ],
+    targets: [
+        .target(name: "Dependencies", dependencies: ["NetworkService"])
+    ]
+)
+
+```
+
 ### Example
 
 Find an example here: [Example](Example)
